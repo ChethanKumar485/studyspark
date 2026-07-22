@@ -98,7 +98,7 @@ git init
 git add .
 git commit -m "StudySpark React: initial version"
 git branch -M main
-git remote add origin https://github.com/<ChethanKumar485>/studyspark.git
+git remote add origin https://github.com/ChethanKumar485/studyspark.git
 git push -u origin main
 ```
 

@@ -130,18 +130,223 @@ repo name — no extra config needed.
 
 ---
 
-## Honest limitations
+🌐 **Live Demo:** https://chethankumar485.github.io/studyspark/
 
-- Data is local to one browser/phone — no account, no cloud sync, by design (zero backend, zero
-  cost, zero tracking). Use **Progress → Export backup** before switching phones or clearing
-  browser data, and **Import backup** to restore it.
-- The evening nudge only fires while the app is open in the foreground. True background push
-  notifications need a small server component — a good next step if this grows into a bigger
-  build (see below).
+---
 
-## Ideas for extending this project
+## ✨ Features
 
-- Cloud sync via Firebase/Supabase so a streak survives a phone change.
-- Real push notifications via a backend + service worker push.
-- AI-generated flashcards from a photographed textbook page.
-- Study groups / class leaderboard.
+- 📖 Subject & Chapter Management
+- 🗺️ Interactive Study Trail
+- ⏱️ Pomodoro Focus Timer
+- 🧠 Spaced Repetition Flashcards
+- 🔥 Daily Study Streaks
+- ⭐ XP, Levels & Achievement Badges
+- 📊 Weekly Progress Analytics
+- 🎨 Dark & Light Theme
+- 💾 Export & Import Study Data
+- 📱 Installable Progressive Web App (PWA)
+- 🌐 Offline Support
+- ⚡ Fast Performance with Vite
+
+---
+
+# 📱 Screens
+
+- Trail
+- Focus
+- Flashcards
+- Progress Dashboard
+- Subject Manager
+- Chapter Manager
+- Backup & Restore
+
+---
+
+# 🛠️ Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| React 19 | UI Development |
+| TypeScript | Type Safety |
+| Vite | Development & Build Tool |
+| Tailwind CSS | Styling |
+| Framer Motion | Animations |
+| Recharts | Weekly Activity Charts |
+| Lucide React | Icons |
+| Vite Plugin PWA | Progressive Web App Support |
+| GitHub Actions | Automatic Deployment |
+| GitHub Pages | Hosting |
+
+
+
+
+---
+
+# 🌐 GitHub Pages Deployment
+
+This project uses **GitHub Actions** to automatically build and deploy the application to **GitHub Pages**.
+
+Every push to the **main** branch automatically:
+
+- Installs dependencies
+- Builds the project
+- Deploys to GitHub Pages
+
+Live Website:
+
+**https://chethankumar485.github.io/studyspark/**
+
+---
+
+# ⚙️ GitHub Pages Configuration
+
+1. Open your repository.
+2. Go to **Settings → Pages**.
+3. Under **Build and Deployment**:
+   - Source → **GitHub Actions**
+4. Push your changes to the **main** branch.
+5. Wait for the deployment workflow to finish.
+
+Your latest version will automatically be available online.
+
+---
+
+# 📲 Install as an App
+
+## Android (Chrome)
+
+1. Open the website.
+2. Tap **⋮ Menu**.
+3. Select **Add to Home Screen** or **Install App**.
+4. Launch StudySpark directly from your home screen.
+
+---
+
+## iPhone (Safari)
+
+1. Open the website in Safari.
+2. Tap **Share**.
+3. Select **Add to Home Screen**.
+4. Launch the installed app from your home screen.
+
+---
+
+# 📊 Core Features
+
+## 🗺️ Study Trail
+
+- Organize subjects into chapters.
+- Complete chapters one by one.
+- Visual learning path.
+- Progress tracking.
+
+---
+
+## ⏱️ Focus Timer
+
+- Pomodoro study timer.
+- Improves concentration.
+- Tracks completed sessions.
+
+---
+
+## 🧠 Flashcards
+
+- Spaced Repetition algorithm.
+- Daily revision cards.
+- Improves long-term memory.
+
+---
+
+## 📈 Progress Dashboard
+
+- Weekly activity chart.
+- Study statistics.
+- XP tracking.
+- Level progression.
+- Badges & achievements.
+
+---
+
+## 💾 Backup & Restore
+
+Export all study data as a JSON file.
+
+Import previously exported backups anytime.
+
+No account required.
+
+Everything stays on your own device.
+
+---
+
+# 🎯 Why StudySpark?
+
+Traditional study habits often lead to:
+
+- Last-minute exam preparation
+- Poor retention
+- Low motivation
+- Irregular study schedules
+
+StudySpark solves this by encouraging:
+
+- Daily learning
+- Gamified progress
+- Better memory retention
+- Consistent revision
+- Visual progress tracking
+
+---
+
+# 🔒 Privacy
+
+StudySpark is designed with privacy in mind.
+
+- No Login
+- No Account
+- No Ads
+- No Tracking
+- No Cloud Storage
+
+All data remains stored locally in your browser unless you choose to export a backup.
+
+
+
+
+
+---
+
+# 📄 License
+
+This project is licensed under the **MIT License**.
+
+See the **LICENSE** file for details.
+
+---
+
+# 👨‍💻 Author
+
+**Chethan Kumar**
+
+GitHub:
+https://github.com/ChethanKumar485
+
+Live Website:
+https://chethankumar485.github.io/studyspark/
+
+
+---
+
+## ⭐ Support
+
+If you found this project useful:
+
+⭐ Star the repository
+
+🍴 Fork the project
+
+📢 Share it with your friends
+
+Happy Studying! 📚✨
